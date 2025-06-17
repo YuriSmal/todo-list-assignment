@@ -1,0 +1,30 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+}
+
+.app {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input,
+button {
+  border-radius: 4px;
+  outline: none;
+}
+
+input {
+  border: 1px solid #CED4DA;
+
+  &:hover {
+    border: 1px solid #C0C4CC;
+  }
+
+  &:focus {
+    border: 1px solid #409EFF;
+  }
+}

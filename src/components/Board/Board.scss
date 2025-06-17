@@ -1,0 +1,12 @@
+.board-container {
+  margin-top: 24px;
+
+  .board {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 24px;
+  }
+}

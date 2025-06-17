@@ -1,0 +1,44 @@
+.column {
+  background: #F5F5F5;
+  border-radius: 4px;
+  border: 1px solid #E4E7ED;
+  width: 250px;
+  flex-shrink: 0;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: background 0.2s;
+  box-shadow: 0 8px 20px 0 #00000014;
+
+  &-empty {
+    margin: auto;
+  }
+
+  &.dragged-over {
+    background: #c6cbd0;
+  }
+
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h2 {
+      margin: 0;
+      font-size: 1.1em;
+    }
+  }
+
+  &-actions {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 0.9em;
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+}

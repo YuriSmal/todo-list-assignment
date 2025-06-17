@@ -1,0 +1,30 @@
+.board-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  input[type="text"] {
+    padding: 5px;
+    flex: 1;
+  }
+
+  .filter-buttons {
+    button {
+      margin: 0 4px;
+    }
+  }
+
+  .search-bar {
+    input {
+      width: 100%;
+    }
+  }
+
+  .add-column {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+}
